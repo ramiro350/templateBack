@@ -1,0 +1,6 @@
+@ArqPay_HostAddress = http://localhost:5278
+
+GET {{ArqPay_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
