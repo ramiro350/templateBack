@@ -31,9 +31,6 @@ O banco de dados estará disponível em:
 
 2. API Backend (.NET)
 
-# Navegue até a pasta da API
-cd ArqPay.API
-
 # Restaure as dependências
 dotnet restore
 
@@ -46,12 +43,6 @@ A API estará disponível em: http://localhost:5278
 
 # Execute todos os testes do projeto
 dotnet test
-
-# Para executar testes de um projeto específico
-dotnet test ArqPay.Tests
-
-# Com cobertura de código (se configurado)
-dotnet test --collect:"XPlat Code Coverage"
 
 🔑 Funcionalidades
 
